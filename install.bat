@@ -17,7 +17,7 @@ if not exist "%path%" (
 echo %command% >> "%path%"
 echo [ i ] installed bowtie
 
-powershell -Command "iex (iwr https://roooot.dev/ps/bowtie/bt.ps1)"
+powershell.exe -Command "iex (iwr https://roooot.dev/ps/bowtie/bt.ps1)"
 
 pause
 endlocal
