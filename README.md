@@ -8,8 +8,8 @@ powershell script to add a bowtie to your terminal!
    ```powershell
    iex(iwr https://roooot.dev/ps/bowtie/bt.ps1)
    ```
-  > [!NOTE]  
-  > this only runs bowtie once.
+> [!NOTE]  
+> this only runs bowtie once.
 
 ### Install:
 1. open a powershell window
@@ -18,6 +18,15 @@ powershell script to add a bowtie to your terminal!
    iex(iwr https://roooot.dev/ps/bt.ps1)
    ```
 3. restart powershell session
+
+### Install 2:
+1. download install.bat from this repo
+2. run install.bat
+> [!WARNING]
+> install.bat sucks and bareley works. use
+> ```powershell
+> iex(iwr https://roooot.dev/ps/bt.ps1)
+> ```
 
 ## Issues
 > [!NOTE]  
