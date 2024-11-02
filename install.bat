@@ -1,13 +1,13 @@
 @echo off
 setlocal
 
-set "profilePath=%USERPROFILE%\Documents\WindowsPowerShell\profile.ps1"
+set "profilePath=$PROFILE"
 
 if not exist "%profilePath%" (
-    echo # PowerShell profile file >> "%profilePath%"
+    echo "[ - ] $PROFILE not found"
 )
 
-echo iex (iwr https://roooot.dev/ps/bt.ps1) >> "%profilePath%"
+echo iex(iwr https://roooot.dev/ps/bt.ps1) >> "%profilePath%"
 
-echo Command added to PowerShell profile.
+echo "[ + ] installed bowtie. restart or open powershell"
 endlocal
