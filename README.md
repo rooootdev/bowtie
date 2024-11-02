@@ -6,7 +6,7 @@ powershell script to add a bowtie to your terminal!
 1. open a powershell window
 2. run it using
    ```powershell
-   iex(iwr https://roooot.dev/ps/bowtie/bowtie.ps1)
+   iex(iwr https://roooot.dev/ps/bowtie/bt.ps1)
    ```
   > [!NOTE]  
   > this only runs bowtie once.
