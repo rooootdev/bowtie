@@ -1,5 +1,4 @@
 @echo off
-setlocal
 
 set "profilePath=$PROFILE"
 
@@ -10,4 +9,4 @@ if not exist "%profilePath%" (
 echo iex(iwr https://roooot.dev/ps/bt.ps1) >> "%profilePath%"
 
 echo "[ + ] installed bowtie. restart or open powershell"
-endlocal
+pause
